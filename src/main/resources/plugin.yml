@@ -1,0 +1,4 @@
+name: BlockItem
+version: '1'
+main: net.blockItem.BlockItem
+api-version: '1.18'
