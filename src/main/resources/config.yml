@@ -1,2 +1,16 @@
 block-items:
   - "BLACK_WOOL"
+
+messages:
+  block-craft: "&cВы не можете скрафтить данный предмет!"
+  block-item: "&cУ вас запрешённый предмет!"
+
+  help: "&bUsage: /blockitem <add/remove/list>"
+  no-permission: "&cУ вас недостаточно прав!"
+  hand-empty: "&cРука не должна быть пустой!"
+  blocks-list: "&bСписок запретов:"
+  added: "&aДобалвен новый запрет на предмет!"
+  removed: "&aУдалён заперт на предмет!"
+  already: "&eЗапрет на данный предмет уже есть!"
+
+
