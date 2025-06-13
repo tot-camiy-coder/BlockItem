@@ -24,7 +24,7 @@
 - 🧩 ```Paper 1.18.2+​```
 
 📄 Конфиг:​
-![img](img/config.yml)
+![img](img/config.yml.png)
 
 сделал всё: localhost
 discord: ```#only_localhost``` || telegram: ```@local_explorer```
