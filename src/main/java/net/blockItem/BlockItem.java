@@ -211,6 +211,8 @@ public final class BlockItem extends JavaPlugin implements Listener {
                     getConfig().getString("messages.removed", "empty config"));
             String already = ChatColor.translateAlternateColorCodes('&',
                     getConfig().getString("messages.already", "empty config"));
+            String no_have = ChatColor.translateAlternateColorCodes('&',
+                    getConfig().getString("messages.no-have", "empty config"));
             if (args.length < 1)
             {
                 p.sendMessage(help);
@@ -254,9 +256,9 @@ public final class BlockItem extends JavaPlugin implements Listener {
                             p.sendMessage(hand_empty);
                             return true;
                         }
-                        if (blocks.contains(item))
+                        if (!blocks.contains(item))
                         {
-                            p.sendMessage(already);
+                            p.sendMessage(no_have);
                             return true;
                         }
                         blocks.remove(item);
